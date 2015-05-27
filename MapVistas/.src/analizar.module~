@@ -230,8 +230,6 @@ Public Function comprobartipo(tipo As String) As String
         Return "Boolean"
       Case "TEXT"
         Return "String"
-      Case "VARCHAR"
-        Return "String"
       Case "INTEGER PRIMARY KEY"
         Return "Null"
       Case "INTEGER PRIMARY KEY  AUTOINCREMENT  NOT NULL"

@@ -3,7 +3,7 @@
 Title=MapVistas
 Startup=FMain
 Icon=iconobd.png
-Version=0.2.99911
+Version=0.2.99912
 Component=gb.image
 Component=gb.qt4
 Component=gb.form
