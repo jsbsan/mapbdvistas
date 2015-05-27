@@ -1,0 +1,32 @@
+' Gambas module file
+
+Public Function Between(Datos As String, Cadena1 As String, Cadena2 As String) As String
+  
+  Dim iinf As Integer
+  Dim isup As Integer
+  
+  iinf = InStr(Datos, Cadena1) + Len(Cadena1)
+  isup = InStr(Datos, Cadena2, iinf)
+  Return Mid(Datos, iinf, isup - iinf)
+  
+End
+'****
+
+Public Function BetweenMays(Datos As String, Cadena1 As String, Cadena2 As String) As String
+  
+  Dim iinf As Integer
+  Dim isup As Integer
+  
+  iinf = InStr(Upper$(Datos), Upper$(Cadena1)) + Len(Cadena1)
+  isup = InStr(Upper$(Datos), Upper$(Cadena2), iinf)
+  Return Mid(Datos, iinf, isup - iinf)
+  
+End
+'****
+'
+
+Public Function primeraMay(cadena As String) As String
+  
+  Return Mid$(Upper(cadena), 1, 1) & Mid$(cadena, 2, Len(cadena))
+  
+End
