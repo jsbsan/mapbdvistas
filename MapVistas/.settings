@@ -134,7 +134,8 @@ Geometry=[35,499,210,210]
 Geometry=[0,1,210,210]
 
 [OpenFile]
-File[1]=".src/analizar.module:230.17"
+Active=1
+File[1]=".src/analizar.module:249.22"
 File[2]=".src/comun.module:19.0"
 File[3]=".src/creaVista.module:101.69"
 File[4]="autogridviewObservador:121.59"
@@ -143,7 +144,6 @@ File[6]="iconobd.png"
 File[7]="ImprimirRapido.txt:4.18"
 File[8]="FormAutomaticoDinamico.class:472.21"
 File[9]="estructura.html:0.0"
-Active=10
 File[10]=".src/creaTabla.module:33.0"
 File[11]="028:3.87"
 File[12]=".src/FMain.form"

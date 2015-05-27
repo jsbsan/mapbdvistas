@@ -1,3 +1,6 @@
+* Wed May 27 2015 Julio Sánchez Berro <jusabejusabe@gmail.com> 0.2.99912
+- añado campo VARCHAR
+
 * Sun Apr 19 2015 Julio Sánchez Berro <jusabejusabe@gmail.com> 0.2.99911
 - agregado update y colores iniciales en los gridview
 
